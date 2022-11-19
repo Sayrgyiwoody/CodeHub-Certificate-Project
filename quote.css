@@ -1,0 +1,79 @@
+.quoteContainer {
+  width: 600px;
+  height: auto;
+  background-color: var(--primary);
+  padding: 15px;
+  border-radius: 10px;
+  margin: 25px 0;
+}
+
+.quote-div {
+  display: flex;
+  justify-items: center;
+}
+
+.right-quote {
+  font-size: 32px;
+  align-items: flex-end;
+}
+.left-quote {
+  margin-right: 8px;
+  font-size: 32px;
+}
+.right-quote {
+  display: flex;
+  margin-right: 8px;
+}
+
+.author-div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 20px 0;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.footer i {
+  margin-right: 14px;
+  font-size: 30px;
+  color: #444444;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.footer i:hover {
+  transform: translateY(-6px);
+  color: #141542;
+}
+
+.btn-quote {
+  color: #c8dfba;
+  background-color: #1590b2;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.btn-quote:hover {
+  background-color: #3133a2;
+}
+.footer i:active {
+  color: #000000;
+}
+
+.loading {
+  opacity: 50%;
+}
+
+.copied-msg {
+  font-weight: 500;
+  color: #444444;
+}
