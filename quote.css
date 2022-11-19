@@ -78,3 +78,18 @@
   font-weight: 500;
   color: #444444;
 }
+
+@media only screen and (max-device-width: 480px) {
+  .newDiv {
+    display: block;
+  }
+  .quoteContainer {
+    width: auto;
+  }
+  .container-box {
+    width: auto;
+  }
+  .infoDiv {
+    margin: 20px 0;
+  }
+}
