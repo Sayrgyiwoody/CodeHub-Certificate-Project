@@ -110,7 +110,7 @@ function renderNumber() {
       totalQuantity += cart.quantity;
     })
     document.getElementById("totalQuantity").innerHTML = `${totalQuantity}`;
-    document.getElementById("totalPrice").innerHTML = `${totalPrice}`;
+    document.getElementById("totalPrice").innerHTML = `$${totalPrice}`;
 }
 
 //Delete cart from order
